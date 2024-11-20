@@ -10,10 +10,6 @@ Ensure you have the following installed on your system:
 Node.js (v16 or higher)
 npm (comes with Node.js) or yarn
 
-# Clone the repository 
-git clone https://github.com/yourusername/fitnearnpal-frontend.git
-cd fitnearnpal-frontend
-
 # Install Dependencies 
 npm install
 # or
