@@ -143,7 +143,7 @@ export default function Main() {
           position: 'absolute',
           top: '0',
           left: '0',
-          width: '100%',
+          width: '85%',
           zIndex: 1,
         }}
       />
