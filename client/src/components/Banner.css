@@ -1,0 +1,114 @@
+/* Banner.css */
+
+/* Smooth transition for image scale on hover */
+.banner-image img {
+    max-width: 70%; /* Adjusted max width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    transition: transform 500ms ease; /* Apply transition for transform */
+  }
+  
+  /* Hover effect for image - smooth scale up */
+  .banner-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Banner container - flex setup */
+  .banner-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #181818; /* Background matches the navbar */
+    color: white;
+    padding: 20px;
+    gap: 20px;
+    transition: all 500ms ease; /* Smooth transition for entire container */
+  }
+  
+  /* Banner text styling */
+  .banner-text {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .banner-text h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .banner-text h5 {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  .highlight {
+    color: #ff5733;
+    font-weight: bold;
+  }
+  .downloadBtn {
+    background-color: #ff5733;
+    color: white; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: all 0.3s ease;
+    display: flex;  
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+  }
+  /* Responsive Design - for tablet view */
+  @media (max-width: 768px) {
+    .banner-container {
+      flex-direction: column;
+      text-align: center;
+      padding: 10px;
+    }
+  
+    .banner-text {
+      max-width: 100%;
+    }
+  
+    .banner-text h3 {
+      font-size: 1.8rem;
+    }
+  
+    .banner-text h5 {
+      font-size: 1rem;
+    }
+  
+    .banner-image img {
+      max-width: 50%; /* Smaller on tablet screens */
+      margin-top: 20px;
+    }
+    .downloadBtn {
+      padding: 10px 20px; /* Reduce padding */
+      font-size: 14px; /* Slightly smaller font */
+      border-radius: 25px; /* Maintain rounded corners */
+    }
+  }
+  
+  /* Responsive Design - for mobile view */
+  @media (max-width: 480px) {
+    .banner-text h3 {
+      font-size: 1.5rem;
+    }
+    .downloadBtn {
+      padding: 10px 20px; /* Reduce padding */
+      font-size: 14px; /* Slightly smaller font */
+      border-radius: 25px; /* Maintain rounded corners */
+    }
+    .banner-text h5 {
+      font-size: 0.9rem;
+    }
+  
+    .banner-image img {
+      max-width: 70%; /* Adjusted for mobile */
+      width: 100%; /* Ensure it scales properly */
+    }
+  }
+  

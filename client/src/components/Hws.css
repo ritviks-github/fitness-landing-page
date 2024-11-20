@@ -1,0 +1,43 @@
+.how-it-works {
+    text-align: center;
+    background: linear-gradient(to bottom right, #460e0e,#822713);
+    padding: 40px;
+    color: white;
+  }
+  
+  .how-it-works h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .step {
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  .step h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .step p {
+    font-size: 0.9em;
+  }
+  

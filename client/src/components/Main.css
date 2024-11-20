@@ -1,0 +1,13 @@
+@media(max-width:768px){
+    #mainLeft{
+        height:4px;
+    }
+    #mainRight{
+        height:4px
+    }
+}
+a {
+    position: relative; /* Ensures it's on top */
+    z-index: 10;
+  }
+  

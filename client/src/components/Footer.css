@@ -1,0 +1,104 @@
+.footer {
+    background: linear-gradient(135deg, #ff4d4d, #ff884d);
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .footer-about,
+  .footer-links,
+  .footer-policies,
+  .footer-download {
+    flex: 1 1 200px;
+    min-width: 200px;
+  }
+  
+  .brand-name {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-about p,
+  .footer-links ul,
+  .footer-policies ul {
+    margin: 10px 0;
+  }
+  
+  .support-email a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .social-icons a {
+    margin: 0 5px;
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  .footer-links ul,
+  .footer-policies ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links a,
+  .footer-policies a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover,
+  .footer-policies a:hover {
+    color: #ffddcc;
+  }
+  
+  .footer-download a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    background: white;
+    color: #ff4d4d;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .footer-download a:hover {
+    background: #ff4d4d;
+    color: white;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px solid white;
+    padding-top: 10px;
+  }
+  
+  .footer-bottom p {
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-about,
+    .footer-links,
+    .footer-policies,
+    .footer-download {
+      flex: 1;
+    }
+  }
+  
